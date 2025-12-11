@@ -3,7 +3,7 @@ from __future__ import annotations
 import math
 import random
 from typing import List, Dict, Any, Optional
-from datetime import date, timedelta   # ← 이 줄 추가
+from datetime import date, timedelta   
 
 from db import get_connection
 
@@ -1179,3 +1179,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
