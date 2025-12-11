@@ -26,7 +26,7 @@ def haversine(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
 
 
 # --------------------------------------------------------------------
-# 1. 관광지 + 맛집 기본 추천 (그대로 사용)
+# 1. 관광지 + 맛집 기본 추천
 # --------------------------------------------------------------------
 
 def recommend_spot_with_restaurant(limit: int = 5) -> List[Dict[str, Any]]:
@@ -98,7 +98,7 @@ def recommend_spot_with_restaurant(limit: int = 5) -> List[Dict[str, Any]]:
 
 
 # --------------------------------------------------------------------
-# 2. 여행자 Preferred_Food 기반 식당 추천 (그대로 사용)
+# 2. 여행자 Preferred_Food 기반 식당 추천
 # --------------------------------------------------------------------
 
 def _get_preferred_food(traveler_id: int) -> Optional[str]:
@@ -1179,4 +1179,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
